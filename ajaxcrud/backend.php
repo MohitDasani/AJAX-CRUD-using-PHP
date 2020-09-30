@@ -1,6 +1,10 @@
 <?php
+try{
+$conn=mysqli_connect('localhost','root',"",'test');
+     }catch(throwable $h){
+            echo 'database error';
+     }
 
-    $conn=mysqli_connect('localhost','root',"",'test');
 extract($_POST);
 
 if(isset($_POST['readrecord'])){
