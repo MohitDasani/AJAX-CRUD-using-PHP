@@ -43,22 +43,22 @@
       <div class="modal-body">
        <div class="form-group">
            <label for="">Firstname:</label>
-           <input type="text" name="" id="firstname" class="form-control" placeholder="FirstName">
+           <input type="text" name="" id="firstname" class="form-control" placeholder="FirstName" required>
        </div>
 
        <div class="form-group">
            <label for="">Lastname:</label>
-           <input type="text" name="" id="lastname" class="form-control" placeholder="LastName">
+           <input type="text" name="" id="lastname" class="form-control" placeholder="LastName" required>
        </div>
 
        <div class="form-group">
            <label for="">Email:</label>
-           <input type="text" name="" id="email" class="form-control" placeholder="Email">
+           <input type="text" name="" id="email" class="form-control" placeholder="Email"  required>
        </div>
 
        <div class="form-group">
            <label for="">Mobile:</label>
-           <input type="text" name="" id="mobile" class="form-control" placeholder="Mobile Number">
+           <input type="text" name="" id="mobile" class="form-control" placeholder="Mobile Number" required>
        </div>
       </div>
 
