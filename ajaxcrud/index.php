@@ -162,7 +162,10 @@
         var lastname =$('#lastname').val();
         var email =$('#email').val();
         var mobile =$('#mobile').val();
+if(firstname.trim()=='' && lastname.trim()=='' && email.trim()=='' && mobile.trim()==''){
+  Window.alert("all fields are required");
 
+}else{
         $.ajax({
 
                 url : 'backend.php',
@@ -179,6 +182,7 @@
                 }
 
         });
+    }
     }
 
 
