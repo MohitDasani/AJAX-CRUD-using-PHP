@@ -39,6 +39,7 @@ if(isset($_POST['readrecord'])){
                 <tr>
             ';
             $number++;
+            echo $number++;
         }
     }
     $data .='</table>';
